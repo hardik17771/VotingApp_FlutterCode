@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'Screens/homescreen.dart';
 void main()=> runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
           style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.deepPurpleAccent)),
         ),
       ),
-      home: Scaffold(
-        theme: ,
-      )
-    );
+      home: const HomePage(),
+
+      );
+
 
 
   }
